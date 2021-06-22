@@ -1,8 +1,12 @@
-@import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap');
-
+/* @import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap'); */
+@font-face{
+    font-family:Kalam-Regular;
+    src: url(../fonts/Kalam-Regular.ttf)
+}
 body{
     /* font-family: Arial, Helvetica, sans-serif; */
-    font-family:'Abril Fatface', cursive;
+    /* font-family:'Abril Fatface', cursive; */
+    font-family:Kalam-Regular;
     font-size: 15px;
     line-height:1.5;
     /* font: 15px, 1.5, Arial, Helvetica, sans-serif; */
@@ -395,10 +399,9 @@ footer p span{
 }
 
 .gallery-container .name {
-    font-size:20px;
-    font-weight:er;
-    font-style:italic;
-    color:rgb(245, 121, 4);
+    font-size:25px;
+    font-weight:bolder;
+    color:rgb(224, 84, 3);
     padding-bottom:15px;
 }
 
