@@ -251,7 +251,8 @@ body{
 }
 
 #newsletter button[type="submit"]{
-    margin-right:570px;
+    margin-right:560px;
+    float:center;
 }
 
 /* Boxes */
