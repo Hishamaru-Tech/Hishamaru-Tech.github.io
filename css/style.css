@@ -350,10 +350,10 @@ footer p span{
       0 0 10px rgb(255, 135, 135),
       0 0 21px rgb(255, 92, 92),
       0 0 42px #f72804,
-      0 0 82px #f72804,
-      0 0 92px #f72804,
+      0 0 82px #f72804;
+     /*  0 0 92px #f72804,
       0 0 102px #f72804,
-      0 0 151px #f72804;
+      0 0 151px #f72804; */
     }
     20%, 24%, 55% {       
       text-shadow: none;
@@ -376,7 +376,6 @@ footer p span{
     margin-top:20px;
     margin-left:15px;
     text-align:center;
-    border: 1px solid #000;
     border-radius:20%;
 }
 
