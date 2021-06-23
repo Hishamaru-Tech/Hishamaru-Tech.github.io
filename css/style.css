@@ -181,7 +181,8 @@ body{
 #showcase2 {
     color:rgb(236, 75, 16);
     text-shadow:0 0 15px #f72804;
-    margin-top:20px;
+    /* margin-top:20px; */
+    margin: 20px auto;
 }
 
 #showcase2 h1{
@@ -241,25 +242,26 @@ body{
 #newsletter form{
     float:center;
     margin-top:15px;
+    width:20%;
+    display:block;
+    margin:auto;
 }
 
 #newsletter form input[type="email"]{
     padding:4px;
     height:25px;
-    /* width:250px; */
-    width:60%;
+    width:100%;
     margin-bottom:5px;
     float:none;
-    margin:auto;
-    display:block;
    /* Display:block; and margin:auto; work together */
 }
 
 #newsletter button[type="submit"]{
-    margin:auto;
-    float:center;
+    /* margin:auto; */
+   /*  float:center; */
+    margin-left:5px;
     display:block;
-    width:50%;
+    width:100%;
 }
 
 /* Boxes */
