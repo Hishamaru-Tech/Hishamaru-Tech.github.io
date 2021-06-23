@@ -223,6 +223,7 @@ body{
 
 #showcase2 .mini-container img:hover{
     transform: scale(1.2);
+    transition-duration:1s;
 }
 
 /* Newsletter */
@@ -399,6 +400,7 @@ footer p span{
 
 .item-img:hover{
     transform: scale(1.2);
+    transition-duration:1s;
 }
 
 .gallery-container button {
@@ -406,11 +408,15 @@ footer p span{
     justify-content:center;
     border-radius:20%;
     margin: auto;
+    transform: scale(1.0);
+    transition-duration:1s;
 }
 
 .gallery-container button:hover{
     background-color:coral;
     color:#000;
+    transform: scale(1.0);
+    transition-duration:1s;
 }
 
 .gallery-container .name {
