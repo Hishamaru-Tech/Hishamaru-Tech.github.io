@@ -219,6 +219,7 @@ body{
     align-items:center;
     margin:auto;
     text-align:center;
+    transition-duration:1s;
 }
 
 #showcase2 .mini-container img:hover{
@@ -337,6 +338,9 @@ footer{
     text-align:center;
 }
 
+footer p a{
+    text-decoration:none;
+}
 
 footer p span{
     animation: flicker 1.5s infinite alternate;
@@ -396,6 +400,7 @@ footer p span{
     flex-wrap:wrap;
     border-radius:10%;
     margin:auto;
+    transition-duration:1s;
 }
 
 .item-img:hover{
